@@ -1,6 +1,7 @@
 'use strict';
 
 var gulp = require('gulp');
+var require-dir = require('require-dir');
 
 var env = process.env.NODE_ENV || 'development';
 /*
