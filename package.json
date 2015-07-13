@@ -48,9 +48,7 @@
     "serve-favicon": "latest",
     "shelljs": "latest",
     "swig": "latest",
-    "view-helpers": "latest"
-  },
-  "devDependencies": {
+    "view-helpers": "latest",
     "connect-modrewrite": "latest",
     "del": "latest",
     "expect.js": "latest",
@@ -84,5 +82,7 @@
     "requirejs": "latest",
     "supertest": "latest",
     "through": "latest"
+  },
+  "devDependencies": {
   }
 }
