@@ -47,7 +47,7 @@ function install(module, options) {
         if (data.repo.indexOf('git.mean.io') === -1) {
           options.git = true;
         }
-        
+
         var cloneUrl = options.git ? data.repo : 'https://git.mean.io/' + data.repo.split(':')[1];
 
         shell.rm('-rf', destination + data.name);
@@ -90,7 +90,7 @@ function install(module, options) {
 
               if (code) return console.log(code);
 
-              console.log(     '    Dependencies installed for package ' + data.name);
+              console.log(     '   Dependencies installed for package ' + data.name);
 
               require('bower').commands.install().on('error', function(err) {
                 console.log('    ' + err + ' ' + data.name);
