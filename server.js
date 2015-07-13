@@ -45,7 +45,7 @@ if ((cluster.isMaster) &&
     var workerId = 0;
     if (!cluster.isMaster)
     {
-        workerId = cluster.worker.id;
+      workerId = cluster.worker.id;
     }
 // Creates and serves mean application
     mean.serve({ workerid: workerId /* more options placeholder*/ }, function (app) {
